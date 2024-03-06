@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Love listening to music and want to keep updated on them and other artists? Give us a good scroll and you'll find some funky info!">
+    <meta name="keywords" content="music, music news, information">
+    <meta name="author" content="Ahmad Lindsey">
+    <title>Extra Beats | Form</title>
+</head>
+<body>
+    <header>
+        <h1><a href="form.html">Extra Beats</a></h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a> &nbsp 
+        <a class="current" href="form.html">Form</a> &nbsp
+        <a href="hyperpop.html">Genre</a> &nbsp
+    </nav>
+
+<!--Taking the quiz right here was a requirement for my school project-->
+
+    <h2>Personalize Your Feed!</h2>
+    <p>Please take this quick quiz over how you would like your feed to be filled, and we'll do our best to customize it based on your musical interests!</p><br>
+    <h3>Please answer the questions as best as you can!</h3>
+    <h4><strong>1. What is the genre of music that you listen to the most?</strong></h4>
+    <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+        <input type="radio" id="rap" name="favGenre" value="Rap">
+        <label for="rap">Rap</label><br>
+        <input type="radio" id="pop" name="favGenre" value="Pop">
+        <label for="pop">Pop</label><br>
+        <input type="radio" id="rock" name="favGenre" value="Rock">
+        <label for="rock">Rock</label><br>
+        <input type="radio" id="edm" name="favGenre" value="EDM">
+        <label for="edm">Electronic Dance Music (EDM)</label><br>
+        <input type="radio" id="country" name="favGenre" value="Country">
+        <label for="country">Country</label><br>
+    <h4><strong>2. Which genre has the best subgenre in your opinion?</strong></h4>
+        <input type="radio" id="rap" name="subGenre" value="Rap">
+        <label for="rap">Rap (Old School, Jazz Rap, Trap)</label><br>
+        <input type="radio" id="pop" name="subGenre" value="Pop">
+        <label for="pop">Pop (Hyperpop, K-Pop, Folk-Pop)</label><br>
+        <input type="radio" id="rock" name="subGenre" value="Rock">
+        <label for="rock">Rock (Punk Rock, Alternative Rock, Indie Rock)</label><br>
+        <input type="radio" id="edm" name="subGenre" value="EDM">
+        <label for="edm">EDM (House, Dubstep, Trance)</label><br>
+        <input type="radio" id="country" name="subGenre" value="Country">
+        <label for="country">Country (Bakersfield Sound, Bluegrass, Bro-Country)</label><br>
+    <h4><strong>3. Out of the genres on this list, which has the best sounding artists?</strong></h4>
+        <input type="radio" id="rap" name="artists" value="Rap">
+        <label for="rap">Rap (Drake, YoungBoy Never Broke Again, Juice WRLD)</label><br>
+        <input type="radio" id="pop" name="artists" value="Pop">
+        <label for="pop">Pop (Taylor Swift, Ariana Grande, ericdoa)</label><br>
+        <input type="radio" id="rock" name="artists" value="Rock">
+        <label for="rock">Rock (AC/DC, Nirvana, Panic! At the Disco)</label><br>
+        <input type="radio" id="edm" name="artists" value="EDM">
+        <label for="edm">EDM (Steve Aoki, Calvin Harris, TroyBoi)</label><br>
+        <input type="radio" id="country" name="artists" value="Country">
+        <label for="country">Country (Tim McGraw, Luke Combs, Carrie Underwood)</label><br>
+    <h4><strong>4. Pick 3 genres/subgenres that you would like to see on your feed more often</strong></h4>
+        <input type="checkbox" id="rap" name="genreSub" value="Rap">
+        <label for="rap">Rap</label><br>
+        <input type="checkbox" id="trap" name="genreSub" value="Trap">
+        <label for="trap">Trap</label><br>
+        <input type="checkbox" id="pop" name="genreSub" value="Pop">
+        <label for="pop">Pop</label><br>
+        <input type="checkbox" id="hyperpop" name="genreSub" value="Hyperpop">
+        <label for="hyperpop">Hyperpop</label><br>
+        <input type="checkbox" id="rock" name="genreSub" value="Rock">
+        <label for="rock">Rock</label><br>
+        <input type="checkbox" id="indierock" name="genreSub" value="IndieRock">
+        <label for="indierock">Indie Rock</label><br>
+        <input type="checkbox" id="edm" name="genreSub" value="EDM">
+        <label for="edm">Electronic Dance Music (EDM)</label><br>
+        <input type="checkbox" id="house" name="genreSub" value="House">
+        <label for="house">House</label><br>
+        <input type="checkbox" id="country" name="genreSub" value="Country">
+        <label for="country">Country</label><br>
+        <input type="checkbox" id="bluegrass" name="genreSub" value="Bluegrass">
+        <label for="bluegrass">Bluegrass</label><br>
+    <h4><strong>5. If there's a genre, subgenre, and artist that we missed, please tell us. You can list as many as you like!</strong></h4>
+        <input type="text" placeholder="Genre"><br>
+        <input type="text" placeholder="Subgenre"><br>
+        <input type="text" placeholder="Artist"><br>
+    <h4><strong>If you have any other comments that you would like to add, then you can add them here:</strong></h4>
+        <textarea type="text" placeholder="Comments" cols="40" rows="2"></textarea><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+
+    <footer>
+        <p>&copy; 2022 Extra Beats</p>
+        <a href="mailto:ahmadlindsey11@gmail.com">ahmadlindsey11@gmail.com</a>
+    </footer>
+</body>
+</html>
